@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/91757/Desktop/Swoosh/app/src/main/res/drawable/swoosh_button.xml" value="0.244" />
-        <entry key="..\:/Users/91757/Desktop/Swoosh/app/src/main/res/layout/activity_main.xml" value="0.46647230320699706" />
+        <entry key="..\:/Users/91757/Desktop/Swoosh/app/src/main/res/drawable/swoosh_button_checked.xml" value="0.244" />
+        <entry key="..\:/Users/91757/Desktop/Swoosh/app/src/main/res/drawable/swoosh_toggle.xml" value="0.244" />
+        <entry key="..\:/Users/91757/Desktop/Swoosh/app/src/main/res/font/montserrat_alternatesR.xml" value="0.14010416666666667" />
+        <entry key="..\:/Users/91757/Desktop/Swoosh/app/src/main/res/layout/activity_layout.xml" value="0.3827751196172249" />
+        <entry key="..\:/Users/91757/Desktop/Swoosh/app/src/main/res/layout/activity_main.xml" value="0.2" />
       </map>
     </option>
   </component>
