@@ -17,7 +17,8 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
       app:layout_constraintVertical_bias="1.0"
-      app:srcCompat="@drawable/desiredleaguebg" />
+      app:srcCompat="@drawable/desiredleaguebg"
+      android:contentDescription="@string/background_image" />
 
   <ImageView
       android:id="@+id/imageView4"
@@ -33,7 +34,7 @@
       android:id="@+id/textView4"
       android:layout_width="90dp"
       android:layout_height="wrap_content"
-      android:layout_marginTop="52dp"
+      android:layout_marginTop="128dp"
       android:fontFamily="@font/belleza"
       android:text="Desired League:"
       android:textColor="#9EFFFFFF"
@@ -47,9 +48,9 @@
       android:id="@+id/button5"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
-      android:layout_marginStart="8dp"
-      android:layout_marginEnd="8dp"
-      android:layout_marginBottom="8dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginBottom="16dp"
       android:background="@drawable/swoosh_button"
       android:text="NEXT"
       android:textColor="#FBF9F9"
@@ -59,10 +60,10 @@
 
   <LinearLayout
       android:layout_width="373dp"
-      android:layout_height="wrap_content"
-      android:layout_marginStart="16dp"
-      android:layout_marginTop="150dp"
-      android:layout_marginEnd="16dp"
+      android:layout_height="176dp"
+      android:layout_marginStart="24dp"
+      android:layout_marginTop="100dp"
+      android:layout_marginEnd="24dp"
       android:orientation="vertical"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
@@ -73,11 +74,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/swoosh_toggle"
-        android:text="Mens"
+        android:text="@string/Mens"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#F6F5F5"
-        android:textOff="Mens"
-        android:textOn="Mens" />
+        android:textOff="@string/Mens"
+        android:textOn="@string/Mens" />
 
     <ToggleButton
         android:id="@+id/toggleButton5"
@@ -86,11 +87,11 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_toggle"
-        android:text="Womens"
+        android:text="@string/Womens"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#F6F5F5"
-        android:textOff="Womens"
-        android:textOn="Womens" />
+        android:textOff="@string/Womens"
+        android:textOn="@string/Womens" />
 
     <ToggleButton
         android:id="@+id/toggleButton6"
